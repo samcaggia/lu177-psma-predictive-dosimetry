@@ -1,0 +1,36 @@
+# Data and outputs (never committed; see data/README.md and DATA_LICENSES.md)
+data/*
+!data/README.md
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+output/*
+!output/README.md
+!output/.gitkeep
+runs/
+deep_learning/runs/
+Dataset/
+
+# Images, volumes, arrays, tables, weights
+*.pth
+*.pth.prev
+*.pt
+*.ckpt
+*.nii
+*.nii.gz
+*.dcm
+*.mhd
+*.raw
+*.npy
+*.npz
+*.parquet
+*.pkl
+
+# Environments and caches
+.venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

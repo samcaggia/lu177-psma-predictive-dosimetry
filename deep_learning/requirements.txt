@@ -1,0 +1,8 @@
+monai==1.6.0
+einops
+torch
+numpy
+scipy
+pandas
+pyarrow
+matplotlib

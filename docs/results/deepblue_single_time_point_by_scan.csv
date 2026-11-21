@@ -1,0 +1,13 @@
+method,scan,time_after_injection,n,median_abs_error_pct,median_error_pct,in_ref_68,half_width_68_pct,ref_in_68,ref_in_95
+M1 Hanscheid,scan1,about 4 h,13,90.81,-90.81,0,,,
+M1 Hanscheid,scan2,about 1 day,13,29.87,-29.87,0,,,
+M1 Hanscheid,scan3,about 4 days,13,2.70,1.75,11,,,
+M1 Hanscheid,scan4,5 or 8 days,13,8.00,-8.00,6,,,
+M1 population rate,scan1,about 4 h,13,14.88,-14.88,2,,,
+M1 population rate,scan2,about 1 day,13,12.24,6.06,3,,,
+M1 population rate,scan3,about 4 days,13,4.59,-2.69,12,,,
+M1 population rate,scan4,5 or 8 days,13,6.28,-1.75,8,,,
+M2 Bayes,scan1,about 4 h,13,16.51,-16.51,2,36.99,9.00,10.00
+M2 Bayes,scan2,about 1 day,13,13.64,5.79,3,27.33,11.00,12.00
+M2 Bayes,scan3,about 4 days,13,5.89,2.95,9,19.61,13.00,13.00
+M2 Bayes,scan4,5 or 8 days,13,7.57,7.46,6,44.04,13.00,13.00

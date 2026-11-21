@@ -1,0 +1,268 @@
+method,structure,quantity,n,bias,median_abs_error,error_factor_pct,rmse,coverage_68,coverage_95,skill
+network,bladder,log_a0,470,-0.0744,0.2533,28.8280,0.3644,0.9404,0.9979,0.2343
+network,bladder,log_lambda_bio,470,-0.2856,0.2802,32.3416,0.3258,0.6894,0.9936,-1.6975
+network,bladder,log_tiac,470,-0.1368,0.1805,19.7850,0.2448,0.7489,1.0000,0.4347
+network,bladder,log_tiac_late,470,0.2203,0.2161,24.1207,0.4014,0.9404,0.9957,0.3878
+network,bladder,early_share,470,-0.0210,0.0830,,0.1559,0.8383,0.9574,0.3267
+network,blood_pool,log_a0,470,-0.0384,0.2338,26.3338,0.4351,0.9021,0.9872,0.3282
+network,blood_pool,log_lambda_bio,470,-0.1508,0.1476,15.9028,0.2397,0.9106,0.9979,-0.4274
+network,blood_pool,log_tiac,470,0.0203,0.1193,12.6724,0.1898,0.9021,1.0000,0.0457
+network,blood_pool,log_tiac_late,470,0.1565,0.2483,28.1791,0.4877,0.8894,0.9851,0.2974
+network,blood_pool,early_share,470,0.0148,0.1018,,0.1538,0.7596,0.9447,0.1808
+network,gi_tract,log_a0,470,-0.0377,0.2556,29.1209,0.3761,0.9489,1.0000,-0.2764
+network,gi_tract,log_lambda_bio,470,-0.0276,0.1154,12.2293,0.1684,0.7851,0.9830,-0.0916
+network,gi_tract,log_tiac,470,-0.1375,0.1938,21.3874,0.2814,0.9106,0.9915,-0.0502
+network,gi_tract,log_tiac_late,470,-0.1859,0.2338,26.3442,0.3657,0.9574,1.0000,-0.1304
+network,gi_tract,early_share,470,0.0155,0.0278,,0.0455,0.9894,1.0000,0.0509
+network,kidneys_functional,log_a0,470,-0.0466,0.2694,30.9226,0.4133,0.7553,0.9681,-0.0390
+network,kidneys_functional,log_lambda_bio,470,0.0396,0.1249,13.3061,0.1802,0.7043,0.9574,-0.0966
+network,kidneys_functional,log_tiac,470,-0.1019,0.2741,31.5380,0.4213,0.7660,0.9723,-0.0661
+network,kidneys_functional,log_tiac_late,470,-0.0717,0.2883,33.4178,0.4405,0.7447,0.9638,-0.0257
+network,kidneys_functional,early_share,470,-0.0285,0.0351,,0.0465,0.7511,0.9957,-0.4990
+network,lesion,log_a0,13350,-0.1921,0.7039,102.1680,1.1282,0.7279,0.9268,-0.1018
+network,lesion,log_lambda_bio,13350,0.2215,0.5009,65.0262,0.7617,0.6649,0.9130,-0.2432
+network,lesion,log_lambda_u,4726,0.0724,0.7826,118.7259,1.1998,0.6699,0.9460,0.0867
+network,lesion,log_tiac,13350,-0.4536,0.7800,118.1471,1.2272,0.6351,0.8757,-0.1763
+network,lesion,log_tiac_late,13350,-0.2960,0.8468,133.2189,1.3338,0.6957,0.9160,-0.2397
+network,lesion,early_share,13350,0.0314,0.0796,,0.1706,0.7583,0.9162,-2.0452
+network,liver,log_a0,470,-0.0737,0.2230,24.9806,0.3415,0.7574,0.9872,0.2929
+network,liver,log_lambda_bio,470,-0.0086,0.2284,25.6593,0.3285,0.6468,0.9404,0.0009
+network,liver,log_tiac,470,-0.0423,0.2271,25.4940,0.3171,0.8915,0.9979,0.2038
+network,liver,log_tiac_late,470,-0.0451,0.2419,27.3614,0.3491,0.8426,0.9936,0.2114
+network,liver,early_share,470,0.0039,0.0349,,0.0633,0.8532,0.9787,0.1212
+network,rest_of_body,log_a0,470,0.3696,0.4292,53.6031,0.5892,0.8191,0.9979,-0.4600
+network,rest_of_body,log_lambda_bio,470,-0.0029,0.1194,12.6825,0.1841,0.7766,0.9766,0.1405
+network,rest_of_body,log_tiac,470,0.0283,0.1282,13.6772,0.2147,0.8915,0.9894,0.2405
+network,rest_of_body,log_tiac_late,470,0.3221,0.3457,41.2981,0.4672,0.9489,1.0000,-0.6342
+network,rest_of_body,early_share,470,-0.0655,0.0701,,0.0788,0.5702,0.9957,-1.9248
+network,salivary_glands,log_a0,470,-0.1427,0.5103,66.5815,0.7627,0.6702,0.9511,0.0579
+network,salivary_glands,log_lambda_bio,470,0.0134,0.0990,10.4020,0.1526,0.7447,0.9702,-0.0114
+network,salivary_glands,log_lambda_u,211,0.0369,0.7052,102.4318,1.1085,0.7251,0.9573,0.0421
+network,salivary_glands,log_tiac,470,-0.1724,0.5253,69.1017,0.7622,0.6574,0.9553,0.0391
+network,salivary_glands,log_tiac_late,470,-0.1533,0.5437,72.2422,0.7787,0.6532,0.9489,0.0372
+network,salivary_glands,early_share,470,-0.0184,0.0365,,0.0523,0.8936,1.0000,-0.2350
+network,spine,log_a0,470,0.0500,0.3449,41.1896,0.5374,0.8745,0.9936,-0.0124
+network,spine,log_lambda_bio,470,-0.2905,0.2837,32.8096,0.3472,0.9660,1.0000,-1.7538
+network,spine,log_tiac,470,0.2647,0.2452,27.7935,0.3761,0.8468,1.0000,-0.5819
+network,spine,log_tiac_late,470,0.5855,0.4524,57.2066,0.9895,0.7681,0.9851,-0.2872
+network,spine,early_share,470,0.0521,0.1190,,0.1609,0.7511,0.9787,0.0533
+network,spleen,log_a0,470,0.0568,0.2208,24.7100,0.3406,0.7383,0.9723,0.2891
+network,spleen,log_lambda_bio,470,-0.0112,0.2298,25.8320,0.3310,0.6383,0.9298,-0.0019
+network,spleen,log_tiac,470,0.0801,0.2076,23.0706,0.3326,0.8596,0.9915,0.1959
+network,spleen,log_tiac_late,470,0.0868,0.2183,24.3928,0.3709,0.7872,0.9830,0.2617
+network,spleen,early_share,470,-0.0046,0.0359,,0.0622,0.8021,0.9702,0.1550
+network (calibrated),bladder,log_a0,470,-0.0744,0.2533,28.8280,0.3644,0.8170,0.9809,0.2343
+network (calibrated),bladder,log_lambda_bio,470,-0.2856,0.2802,32.3416,0.3258,0.6894,0.9936,-1.6975
+network (calibrated),bladder,log_tiac,470,-0.1368,0.1805,19.7850,0.2448,0.6021,0.9489,0.4347
+network (calibrated),bladder,log_tiac_late,470,0.2203,0.2161,24.1207,0.4014,0.8787,0.9809,0.3878
+network (calibrated),bladder,early_share,470,-0.0210,0.0830,,0.1559,0.8511,0.9596,0.3267
+network (calibrated),blood_pool,log_a0,470,-0.0384,0.2338,26.3338,0.4351,0.8574,0.9702,0.3282
+network (calibrated),blood_pool,log_lambda_bio,470,-0.1508,0.1476,15.9028,0.2397,0.6596,0.9511,-0.4274
+network (calibrated),blood_pool,log_tiac,470,0.0203,0.1193,12.6724,0.1898,0.6766,0.9447,0.0457
+network (calibrated),blood_pool,log_tiac_late,470,0.1565,0.2483,28.1791,0.4877,0.8340,0.9638,0.2974
+network (calibrated),blood_pool,early_share,470,0.0148,0.1018,,0.1538,0.7936,0.9532,0.1808
+network (calibrated),gi_tract,log_a0,470,-0.0377,0.2556,29.1209,0.3761,0.7319,0.9511,-0.2764
+network (calibrated),gi_tract,log_lambda_bio,470,-0.0276,0.1154,12.2293,0.1684,0.6809,0.9596,-0.0916
+network (calibrated),gi_tract,log_tiac,470,-0.1375,0.1938,21.3874,0.2814,0.7532,0.9766,-0.0502
+network (calibrated),gi_tract,log_tiac_late,470,-0.1859,0.2338,26.3442,0.3657,0.7021,0.9596,-0.1304
+network (calibrated),gi_tract,early_share,470,0.0155,0.0278,,0.0455,0.7234,0.9553,0.0509
+network (calibrated),kidneys_functional,log_a0,470,-0.0466,0.2694,30.9226,0.4133,0.7213,0.9553,-0.0390
+network (calibrated),kidneys_functional,log_lambda_bio,470,0.0396,0.1249,13.3061,0.1802,0.6702,0.9447,-0.0966
+network (calibrated),kidneys_functional,log_tiac,470,-0.1019,0.2741,31.5380,0.4213,0.7000,0.9468,-0.0661
+network (calibrated),kidneys_functional,log_tiac_late,470,-0.0717,0.2883,33.4178,0.4405,0.7064,0.9468,-0.0257
+network (calibrated),kidneys_functional,early_share,470,-0.0285,0.0351,,0.0465,0.6702,0.9681,-0.4990
+network (calibrated),lesion,log_a0,13350,-0.1921,0.7039,102.1680,1.1282,0.7923,0.9489,-0.1018
+network (calibrated),lesion,log_lambda_bio,13350,0.2215,0.5009,65.0262,0.7617,0.8188,0.9718,-0.2432
+network (calibrated),lesion,log_lambda_u,4726,0.0724,0.7826,118.7259,1.1998,0.7495,0.9594,0.0867
+network (calibrated),lesion,log_tiac,13350,-0.4536,0.7800,118.1471,1.2272,0.8548,0.9637,-0.1763
+network (calibrated),lesion,log_tiac_late,13350,-0.2960,0.8468,133.2189,1.3338,0.8120,0.9550,-0.2397
+network (calibrated),lesion,early_share,13350,0.0314,0.0796,,0.1706,0.8630,0.9586,-2.0452
+network (calibrated),liver,log_a0,470,-0.0737,0.2230,24.9806,0.3415,0.7000,0.9596,0.2929
+network (calibrated),liver,log_lambda_bio,470,-0.0086,0.2284,25.6593,0.3285,0.6447,0.9404,0.0009
+network (calibrated),liver,log_tiac,470,-0.0423,0.2271,25.4940,0.3171,0.7234,0.9702,0.2038
+network (calibrated),liver,log_tiac_late,470,-0.0451,0.2419,27.3614,0.3491,0.7213,0.9830,0.2114
+network (calibrated),liver,early_share,470,0.0039,0.0349,,0.0633,0.7404,0.9383,0.1212
+network (calibrated),rest_of_body,log_a0,470,0.3696,0.4292,53.6031,0.5892,0.6936,0.9745,-0.4600
+network (calibrated),rest_of_body,log_lambda_bio,470,-0.0029,0.1194,12.6825,0.1841,0.7766,0.9766,0.1405
+network (calibrated),rest_of_body,log_tiac,470,0.0283,0.1282,13.6772,0.2147,0.7383,0.9660,0.2405
+network (calibrated),rest_of_body,log_tiac_late,470,0.3221,0.3457,41.2981,0.4672,0.6255,0.9723,-0.6342
+network (calibrated),rest_of_body,early_share,470,-0.0655,0.0701,,0.0788,0.5617,0.9957,-1.9248
+network (calibrated),salivary_glands,log_a0,470,-0.1427,0.5103,66.5815,0.7627,0.6702,0.9511,0.0579
+network (calibrated),salivary_glands,log_lambda_bio,470,0.0134,0.0990,10.4020,0.1526,0.6766,0.9489,-0.0114
+network (calibrated),salivary_glands,log_lambda_u,211,0.0369,0.7052,102.4318,1.1085,0.7962,0.9668,0.0421
+network (calibrated),salivary_glands,log_tiac,470,-0.1724,0.5253,69.1017,0.7622,0.6319,0.9489,0.0391
+network (calibrated),salivary_glands,log_tiac_late,470,-0.1533,0.5437,72.2422,0.7787,0.6489,0.9489,0.0372
+network (calibrated),salivary_glands,early_share,470,-0.0184,0.0365,,0.0523,0.7298,0.9766,-0.2350
+network (calibrated),spine,log_a0,470,0.0500,0.3449,41.1896,0.5374,0.7681,0.9638,-0.0124
+network (calibrated),spine,log_lambda_bio,470,-0.2905,0.2837,32.8096,0.3472,0.5298,0.9638,-1.7538
+network (calibrated),spine,log_tiac,470,0.2647,0.2452,27.7935,0.3761,0.6128,0.9191,-0.5819
+network (calibrated),spine,log_tiac_late,470,0.5855,0.4524,57.2066,0.9895,0.6660,0.8766,-0.2872
+network (calibrated),spine,early_share,470,0.0521,0.1190,,0.1609,0.7894,0.9894,0.0533
+network (calibrated),spleen,log_a0,470,0.0568,0.2208,24.7100,0.3406,0.7234,0.9681,0.2891
+network (calibrated),spleen,log_lambda_bio,470,-0.0112,0.2298,25.8320,0.3310,0.6447,0.9404,-0.0019
+network (calibrated),spleen,log_tiac,470,0.0801,0.2076,23.0706,0.3326,0.6745,0.9426,0.1959
+network (calibrated),spleen,log_tiac_late,470,0.0868,0.2183,24.3928,0.3709,0.7170,0.9489,0.2617
+network (calibrated),spleen,early_share,470,-0.0046,0.0359,,0.0622,0.7170,0.9596,0.1550
+network (independent voxels),bladder,log_a0,470,-0.0744,0.2533,28.8280,0.3644,0.0426,0.0894,0.2343
+network (independent voxels),bladder,log_lambda_bio,470,-0.2856,0.2802,32.3416,0.3258,0.0128,0.0234,-1.6975
+network (independent voxels),bladder,log_tiac,470,-0.1368,0.1805,19.7850,0.2448,0.0383,0.0702,0.4347
+network (independent voxels),bladder,log_tiac_late,470,0.2203,0.2161,24.1207,0.4014,0.1170,0.2149,0.3878
+network (independent voxels),bladder,early_share,470,-0.0210,0.0830,,0.1559,0.0362,0.0702,0.3267
+network (independent voxels),blood_pool,log_a0,470,-0.0384,0.2338,26.3338,0.4351,0.0298,0.0723,0.3282
+network (independent voxels),blood_pool,log_lambda_bio,470,-0.1508,0.1476,15.9028,0.2397,0.0255,0.0553,-0.4274
+network (independent voxels),blood_pool,log_tiac,470,0.0203,0.1193,12.6724,0.1898,0.0277,0.0596,0.0457
+network (independent voxels),blood_pool,log_tiac_late,470,0.1565,0.2483,28.1791,0.4877,0.0447,0.1191,0.2974
+network (independent voxels),blood_pool,early_share,470,0.0148,0.1018,,0.1538,0.0170,0.0362,0.1808
+network (independent voxels),gi_tract,log_a0,470,-0.0377,0.2556,29.1209,0.3761,0.1319,0.2830,-0.2764
+network (independent voxels),gi_tract,log_lambda_bio,470,-0.0276,0.1154,12.2293,0.1684,0.0064,0.0255,-0.0916
+network (independent voxels),gi_tract,log_tiac,470,-0.1375,0.1938,21.3874,0.2814,0.0298,0.0383,-0.0502
+network (independent voxels),gi_tract,log_tiac_late,470,-0.1859,0.2338,26.3442,0.3657,0.1489,0.2638,-0.1304
+network (independent voxels),gi_tract,early_share,470,0.0155,0.0278,,0.0455,0.0617,0.1043,0.0509
+network (independent voxels),kidneys_functional,log_a0,470,-0.0466,0.2694,30.9226,0.4133,0.0255,0.0298,-0.0390
+network (independent voxels),kidneys_functional,log_lambda_bio,470,0.0396,0.1249,13.3061,0.1802,0.0170,0.0383,-0.0966
+network (independent voxels),kidneys_functional,log_tiac,470,-0.1019,0.2741,31.5380,0.4213,0.0064,0.0319,-0.0661
+network (independent voxels),kidneys_functional,log_tiac_late,470,-0.0717,0.2883,33.4178,0.4405,0.0277,0.0383,-0.0257
+network (independent voxels),kidneys_functional,early_share,470,-0.0285,0.0351,,0.0465,0.0191,0.0426,-0.4990
+network (independent voxels),lesion,log_a0,13350,-0.1921,0.7039,102.1680,1.1282,0.2328,0.4288,-0.1018
+network (independent voxels),lesion,log_lambda_bio,13350,0.2215,0.5009,65.0262,0.7617,0.3532,0.6036,-0.2432
+network (independent voxels),lesion,log_lambda_u,4726,0.0724,0.7826,118.7259,1.1998,0.3178,0.5647,0.0867
+network (independent voxels),lesion,log_tiac,13350,-0.4536,0.7800,118.1471,1.2272,0.2710,0.4858,-0.1763
+network (independent voxels),lesion,log_tiac_late,13350,-0.2960,0.8468,133.2189,1.3338,0.2272,0.4181,-0.2397
+network (independent voxels),lesion,early_share,13350,0.0314,0.0796,,0.1706,0.3745,0.6415,-2.0452
+network (independent voxels),liver,log_a0,470,-0.0737,0.2230,24.9806,0.3415,0.0128,0.0234,0.2929
+network (independent voxels),liver,log_lambda_bio,470,-0.0086,0.2284,25.6593,0.3285,0.0043,0.0106,0.0009
+network (independent voxels),liver,log_tiac,470,-0.0423,0.2271,25.4940,0.3171,0.0064,0.0191,0.2038
+network (independent voxels),liver,log_tiac_late,470,-0.0451,0.2419,27.3614,0.3491,0.0106,0.0213,0.2114
+network (independent voxels),liver,early_share,470,0.0039,0.0349,,0.0633,0.0064,0.0298,0.1212
+network (independent voxels),rest_of_body,log_a0,470,0.3696,0.4292,53.6031,0.5892,0.0766,0.1447,-0.4600
+network (independent voxels),rest_of_body,log_lambda_bio,470,-0.0029,0.1194,12.6825,0.1841,0.0021,0.0021,0.1405
+network (independent voxels),rest_of_body,log_tiac,470,0.0283,0.1282,13.6772,0.2147,0.0468,0.0511,0.2405
+network (independent voxels),rest_of_body,log_tiac_late,470,0.3221,0.3457,41.2981,0.4672,0.0766,0.1468,-0.6342
+network (independent voxels),rest_of_body,early_share,470,-0.0655,0.0701,,0.0788,0.0340,0.0468,-1.9248
+network (independent voxels),salivary_glands,log_a0,470,-0.1427,0.5103,66.5815,0.7627,0.0468,0.0702,0.0579
+network (independent voxels),salivary_glands,log_lambda_bio,470,0.0134,0.0990,10.4020,0.1526,0.0702,0.1170,-0.0114
+network (independent voxels),salivary_glands,log_lambda_u,211,0.0369,0.7052,102.4318,1.1085,0.0711,0.1374,0.0421
+network (independent voxels),salivary_glands,log_tiac,470,-0.1724,0.5253,69.1017,0.7622,0.0404,0.0723,0.0391
+network (independent voxels),salivary_glands,log_tiac_late,470,-0.1533,0.5437,72.2422,0.7787,0.0191,0.0511,0.0372
+network (independent voxels),salivary_glands,early_share,470,-0.0184,0.0365,,0.0523,0.1191,0.2447,-0.2350
+network (independent voxels),spine,log_a0,470,0.0500,0.3449,41.1896,0.5374,0.0383,0.0745,-0.0124
+network (independent voxels),spine,log_lambda_bio,470,-0.2905,0.2837,32.8096,0.3472,0.0021,0.0064,-1.7538
+network (independent voxels),spine,log_tiac,470,0.2647,0.2452,27.7935,0.3761,0.0064,0.0234,-0.5819
+network (independent voxels),spine,log_tiac_late,470,0.5855,0.4524,57.2066,0.9895,0.0511,0.0979,-0.2872
+network (independent voxels),spine,early_share,470,0.0521,0.1190,,0.1609,0.0191,0.0319,0.0533
+network (independent voxels),spleen,log_a0,470,0.0568,0.2208,24.7100,0.3406,0.0149,0.0362,0.2891
+network (independent voxels),spleen,log_lambda_bio,470,-0.0112,0.2298,25.8320,0.3310,0.0106,0.0404,-0.0019
+network (independent voxels),spleen,log_tiac,470,0.0801,0.2076,23.0706,0.3326,0.0277,0.0638,0.1959
+network (independent voxels),spleen,log_tiac_late,470,0.0868,0.2183,24.3928,0.3709,0.0277,0.0489,0.2617
+network (independent voxels),spleen,early_share,470,-0.0046,0.0359,,0.0622,0.0383,0.0745,0.1550
+population,bladder,log_a0,470,-0.1311,0.3308,39.2130,0.5404,0.8255,1.0000,0.0000
+population,bladder,log_lambda_bio,470,0.0148,0.1039,10.9468,0.1639,0.6915,0.9745,0.0000
+population,bladder,log_tiac,470,-0.0112,0.3194,37.6268,0.4385,0.9000,1.0000,0.0000
+population,bladder,log_tiac_late,470,-0.1454,0.3529,42.3243,0.5231,0.8468,1.0000,0.0000
+population,bladder,early_share,470,0.0535,0.1233,,0.1559,0.8362,0.9830,0.0000
+population,blood_pool,log_a0,470,-0.1934,0.3480,41.6166,0.4353,0.9362,0.9894,0.0000
+population,blood_pool,log_lambda_bio,470,0.0129,0.1034,10.8925,0.1609,0.7128,0.9766,0.0000
+population,blood_pool,log_tiac,470,-0.0696,0.1250,13.3183,0.2040,0.7809,0.9660,0.0000
+population,blood_pool,log_tiac_late,470,-0.2058,0.3533,42.3827,0.4796,0.8766,0.9915,0.0000
+population,blood_pool,early_share,470,0.0505,0.1242,,0.1571,0.8191,0.9872,0.0000
+population,gi_tract,log_a0,470,-0.1187,0.2002,22.1687,0.3063,0.7596,0.9809,0.0000
+population,gi_tract,log_lambda_bio,470,-0.0056,0.1057,11.1484,0.1601,0.6681,0.9617,0.0000
+population,gi_tract,log_tiac,470,-0.1002,0.1846,20.2689,0.2645,0.7234,0.9723,0.0000
+population,gi_tract,log_tiac_late,470,-0.1145,0.2069,22.9818,0.3044,0.7319,0.9681,0.0000
+population,gi_tract,early_share,470,0.0104,0.0293,,0.0462,0.7426,0.9702,0.0000
+population,kidneys_functional,log_a0,470,-0.1012,0.2593,29.6052,0.3885,0.6915,0.9596,0.0000
+population,kidneys_functional,log_lambda_bio,470,-0.0004,0.1139,12.0666,0.1709,0.6553,0.9553,0.0000
+population,kidneys_functional,log_tiac,470,-0.0909,0.2571,29.3212,0.3798,0.6809,0.9553,0.0000
+population,kidneys_functional,log_tiac_late,470,-0.1008,0.2811,32.4569,0.4071,0.6830,0.9553,0.0000
+population,kidneys_functional,early_share,470,0.0091,0.0234,,0.0378,0.7468,0.9617,0.0000
+population,lesion,log_a0,13350,-0.1842,0.6389,89.4431,1.0239,0.6554,0.9230,0.0000
+population,lesion,log_lambda_bio,13350,-0.0518,0.4030,49.6234,0.5965,0.6801,0.9484,0.0000
+population,lesion,log_lambda_u,4726,-0.0857,0.8569,135.5861,1.2835,0.6964,0.9524,0.0000
+population,lesion,log_tiac,13350,-0.1434,0.6631,94.0785,1.0497,0.6480,0.9188,0.0000
+population,lesion,log_tiac_late,13350,-0.1543,0.6830,97.9902,1.0825,0.6471,0.9176,0.0000
+population,lesion,early_share,13350,0.0109,0.0261,,0.0543,0.7640,0.9279,0.0000
+population,liver,log_a0,470,-0.0107,0.3154,37.0748,0.4485,0.6681,0.9574,0.0000
+population,liver,log_lambda_bio,470,-0.0263,0.2286,25.6852,0.3251,0.6681,0.9532,0.0000
+population,liver,log_tiac,470,0.0235,0.2852,33.0051,0.4052,0.7234,0.9702,0.0000
+population,liver,log_tiac_late,470,0.0107,0.3067,35.8919,0.4434,0.7277,0.9723,0.0000
+population,liver,early_share,470,0.0117,0.0397,,0.0675,0.7447,0.9511,0.0000
+population,rest_of_body,log_a0,470,-0.1020,0.2940,34.1750,0.4790,0.7872,0.9702,0.0000
+population,rest_of_body,log_lambda_bio,470,-0.0596,0.1389,14.9034,0.2051,0.7638,0.9915,0.0000
+population,rest_of_body,log_tiac,470,-0.0355,0.1688,18.3879,0.2529,0.7617,0.9702,0.0000
+population,rest_of_body,log_tiac_late,470,-0.0619,0.2115,23.5575,0.3522,0.8000,0.9617,0.0000
+population,rest_of_body,early_share,470,0.0063,0.0240,,0.0432,0.8064,0.9511,0.0000
+population,salivary_glands,log_a0,470,-0.1225,0.5417,71.8922,0.7838,0.6298,0.9362,0.0000
+population,salivary_glands,log_lambda_bio,470,0.0177,0.0978,10.2787,0.1499,0.6809,0.9447,0.0000
+population,salivary_glands,log_lambda_u,211,0.0115,0.7362,108.8087,1.1415,0.7109,0.9526,0.0000
+population,salivary_glands,log_tiac,470,-0.1219,0.5467,72.7556,0.7783,0.6255,0.9340,0.0000
+population,salivary_glands,log_tiac_late,470,-0.1366,0.5647,75.8966,0.7988,0.6277,0.9340,0.0000
+population,salivary_glands,early_share,470,0.0142,0.0296,,0.0505,0.7340,0.9511,0.0000
+population,spine,log_a0,470,-0.1791,0.3407,40.5955,0.4418,0.9149,0.9894,0.0000
+population,spine,log_lambda_bio,470,0.0130,0.1030,10.8534,0.1607,0.7128,0.9766,0.0000
+population,spine,log_tiac,470,-0.0570,0.1550,16.7701,0.2295,0.7511,0.9766,0.0000
+population,spine,log_tiac_late,470,-0.1917,0.3514,42.1123,0.4823,0.8851,0.9915,0.0000
+population,spine,early_share,470,0.0505,0.1257,,0.1591,0.8234,0.9872,0.0000
+population,spleen,log_a0,470,-0.1928,0.3106,36.4281,0.5202,0.7170,0.9447,0.0000
+population,spleen,log_lambda_bio,470,-0.0240,0.2293,25.7762,0.3241,0.6638,0.9553,0.0000
+population,spleen,log_tiac,470,-0.1444,0.2582,29.4565,0.4565,0.7383,0.9553,0.0000
+population,spleen,log_tiac_late,470,-0.1731,0.2956,34.3988,0.5141,0.7511,0.9574,0.0000
+population,spleen,early_share,470,0.0250,0.0424,,0.0751,0.7426,0.9511,0.0000
+pbpk_fit,bladder,log_a0,470,0.0000,0.0905,9.4682,0.2248,0.7000,0.9298,0.7266
+pbpk_fit,bladder,log_lambda_bio,470,0.0000,0.0735,7.6257,0.1119,0.6745,0.9511,0.2926
+pbpk_fit,bladder,log_tiac,470,0.0000,0.0200,2.0201,0.0381,0.7043,0.9447,0.9374
+pbpk_fit,bladder,log_tiac_late,470,0.0000,0.0689,7.1353,0.2192,0.7340,0.9362,0.8047
+pbpk_fit,bladder,early_share,470,-0.0000,0.0543,,0.1186,0.7021,0.9362,0.5596
+pbpk_fit,blood_pool,log_a0,470,0.0000,0.1386,14.8628,0.3186,0.7106,0.9298,0.6018
+pbpk_fit,blood_pool,log_lambda_bio,470,-0.0000,0.0713,7.3896,0.1089,0.6894,0.9447,0.3105
+pbpk_fit,blood_pool,log_tiac,470,0.0000,0.1048,11.0517,0.1527,0.6723,0.9553,0.1616
+pbpk_fit,blood_pool,log_tiac_late,470,0.0000,0.1924,21.2148,0.3676,0.7085,0.9362,0.4555
+pbpk_fit,blood_pool,early_share,470,0.0000,0.0598,,0.1246,0.6979,0.9404,0.5185
+pbpk_fit,gi_tract,log_a0,470,0.0000,0.1336,14.2974,0.1927,0.6872,0.9574,0.3326
+pbpk_fit,gi_tract,log_lambda_bio,470,0.0000,0.1077,11.3682,0.1650,0.6681,0.9447,-0.0187
+pbpk_fit,gi_tract,log_tiac,470,0.0000,0.1184,12.5643,0.1623,0.6809,0.9596,0.3587
+pbpk_fit,gi_tract,log_tiac_late,470,0.0000,0.1476,15.9045,0.2030,0.6766,0.9617,0.2865
+pbpk_fit,gi_tract,early_share,470,0.0000,0.0221,,0.0318,0.6766,0.9468,0.2455
+pbpk_fit,kidneys_functional,log_a0,470,-0.0000,0.2446,27.7065,0.3638,0.6723,0.9489,0.0569
+pbpk_fit,kidneys_functional,log_lambda_bio,470,-0.0000,0.1182,12.5497,0.1782,0.6553,0.9468,-0.0378
+pbpk_fit,kidneys_functional,log_tiac,470,0.0000,0.2433,27.5449,0.3642,0.6894,0.9553,0.0538
+pbpk_fit,kidneys_functional,log_tiac_late,470,0.0000,0.2681,30.7455,0.3851,0.6809,0.9489,0.0463
+pbpk_fit,kidneys_functional,early_share,470,0.0000,0.0201,,0.0300,0.6936,0.9489,0.1434
+pbpk_fit,lesion,log_a0,13350,-0.0000,0.4959,64.1992,0.7528,0.6779,0.9536,0.2238
+pbpk_fit,lesion,log_lambda_bio,13350,0.0000,0.4262,53.1426,0.6320,0.6793,0.9510,-0.0577
+pbpk_fit,lesion,log_lambda_u,4167,0.0000,0.5856,79.6015,1.1474,0.7221,0.9285,0.3166
+pbpk_fit,lesion,log_tiac,13350,-0.0000,0.5377,71.1993,0.8011,0.6731,0.9542,0.1892
+pbpk_fit,lesion,log_tiac_late,13350,-0.0000,0.5487,73.1042,0.8241,0.6726,0.9540,0.1967
+pbpk_fit,lesion,early_share,13350,0.0000,0.0212,,0.0426,0.7142,0.9340,0.1895
+pbpk_fit,liver,log_a0,470,0.0000,0.2063,22.9123,0.3044,0.6851,0.9617,0.3458
+pbpk_fit,liver,log_lambda_bio,470,-0.0000,0.2249,25.2242,0.3419,0.6830,0.9426,0.0161
+pbpk_fit,liver,log_tiac,470,0.0000,0.2088,23.2172,0.3082,0.6936,0.9511,0.2680
+pbpk_fit,liver,log_tiac_late,470,0.0000,0.2262,25.3845,0.3283,0.6809,0.9574,0.2624
+pbpk_fit,liver,early_share,470,-0.0000,0.0313,,0.0505,0.6872,0.9319,0.2126
+pbpk_fit,rest_of_body,log_a0,470,0.0000,0.2541,28.9310,0.3662,0.6723,0.9532,0.1356
+pbpk_fit,rest_of_body,log_lambda_bio,470,0.0000,0.1048,11.0527,0.1571,0.6638,0.9532,0.2454
+pbpk_fit,rest_of_body,log_tiac,470,-0.0000,0.1020,10.7403,0.1521,0.6809,0.9553,0.3956
+pbpk_fit,rest_of_body,log_tiac_late,470,0.0000,0.1739,18.9960,0.2585,0.6851,0.9553,0.1778
+pbpk_fit,rest_of_body,early_share,470,-0.0000,0.0189,,0.0305,0.6809,0.9404,0.2113
+pbpk_fit,salivary_glands,log_a0,470,0.0000,0.3525,42.2621,0.5160,0.7043,0.9511,0.3493
+pbpk_fit,salivary_glands,log_lambda_bio,470,-0.0000,0.1003,10.5540,0.1573,0.6617,0.9532,-0.0255
+pbpk_fit,salivary_glands,log_lambda_u,193,0.0000,0.6119,84.3869,1.0719,0.6943,0.9326,0.1689
+pbpk_fit,salivary_glands,log_tiac,470,-0.0000,0.3429,40.9065,0.5008,0.6830,0.9489,0.3727
+pbpk_fit,salivary_glands,log_tiac_late,470,-0.0000,0.3471,41.4945,0.5239,0.6830,0.9511,0.3854
+pbpk_fit,salivary_glands,early_share,470,0.0000,0.0236,,0.0373,0.7021,0.9404,0.2032
+pbpk_fit,spine,log_a0,470,0.0000,0.1367,14.6506,0.3185,0.7149,0.9319,0.5987
+pbpk_fit,spine,log_lambda_bio,470,0.0000,0.0708,7.3317,0.1088,0.6915,0.9404,0.3133
+pbpk_fit,spine,log_tiac,470,-0.0000,0.1048,11.0507,0.1527,0.6723,0.9553,0.3239
+pbpk_fit,spine,log_tiac_late,470,-0.0000,0.1957,21.6135,0.3672,0.7128,0.9383,0.4432
+pbpk_fit,spine,early_share,470,-0.0000,0.0603,,0.1264,0.6957,0.9404,0.5205
+pbpk_fit,spleen,log_a0,470,-0.0000,0.1681,18.3103,0.2638,0.6787,0.9362,0.4587
+pbpk_fit,spleen,log_lambda_bio,470,0.0000,0.2234,25.0355,0.3412,0.6787,0.9426,0.0258
+pbpk_fit,spleen,log_tiac,470,0.0000,0.1997,22.0991,0.2856,0.6957,0.9553,0.2266
+pbpk_fit,spleen,log_tiac_late,470,0.0000,0.2126,23.6935,0.3095,0.6894,0.9489,0.2808
+pbpk_fit,spleen,early_share,470,-0.0000,0.0302,,0.0491,0.6957,0.9362,0.2891
+"network, lesions against the cohort value",lesion,log_a0,13350,-0.1169,0.7333,108.1921,1.1528,0.7136,0.9264,-0.1477
+"network, lesions against the cohort value",lesion,log_lambda_bio,13350,0.2294,0.5023,65.2453,0.7649,0.6638,0.9114,-0.2465
+"network, lesions against the cohort value",lesion,log_lambda_u,4726,0.0723,0.7826,118.7259,1.1998,0.6701,0.9460,0.0867
+"network, lesions against the cohort value",lesion,log_tiac,13350,-0.3457,0.8004,122.6420,1.2356,0.6281,0.8801,-0.2071
+"network, lesions against the cohort value",lesion,log_tiac_late,13350,-0.2574,0.8531,134.6859,1.3400,0.6902,0.9167,-0.2489
+"network, lesions against the cohort value",lesion,early_share,13350,0.0944,0.0668,,0.1878,0.7683,0.9060,-1.5548
+"network, separated lesion TIAC against the cohort value",lesion,log_tiac,13330,-0.4738,0.8547,135.0568,1.3579,0.6020,0.8525,-0.2889
