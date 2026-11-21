@@ -111,6 +111,27 @@ Tests:
 .venv-torch/bin/python -m unittest discover -s deep_learning/tests
 ```
 
+## Pretrained weights
+
+The trained network of scenario A (`model.pth`, 256 MB) is attached to the
+[v1.0 release](https://github.com/samkiwi18/lu177-psma-predictive-dosimetry/releases/tag/v1.0), not to the repository.
+It holds the `model_state` of `KineticSwinUNETR` (`deep_learning/lib/model.py`, feature size 48, PET and CT as input
+channels), the optimiser step and the validation NLL of the checkpoint. SHA-256:
+`d6e2e8ffe118ced7ce804ddedeb890b491fc5b36fa85d68222a682c80e092d29`.
+
+```python
+import torch
+from deep_learning.lib.model import KineticSwinUNETR
+
+model = KineticSwinUNETR()
+model.load_state_dict(torch.load("model.pth", map_location="cpu", weights_only=False)["model_state"])
+model.eval()
+```
+
+To use it with the evaluation code, save it as `runs/best_A.pth`. The weights were trained on a virtual cohort built
+from PSMA-PET-CT-Lesions (CC BY-NC 4.0) and are released under **CC BY-NC 4.0**, not MIT: non-commercial research
+use only, with attribution.
+
 ## Citation and acknowledgements
 
 Sources are in `references.bib`. Key ones: Kletting et al., PLoS One 2016 (PBPK model); Jeblick et al. 2026, PSMA-PET-CT-Lesions
@@ -131,4 +152,5 @@ methodological choices and the validation are the author's.
 
 ## Licence
 
-Code: MIT (`LICENSE`). Data and anything derived from it: see `DATA_LICENSES.md`.
+Code: MIT (`LICENSE`). Pretrained weights, data and anything derived from the data: CC BY-NC 4.0 or the
+terms of the source datasets, see `DATA_LICENSES.md`.

@@ -16,3 +16,7 @@ virtual cohorts, Monte Carlo doses, network weights, tables, figures) inherits t
 The aggregate tables in `docs/results/` are summary statistics computed on a virtual cohort built from
 PSMA-PET-CT-Lesions anatomies, and on two Deep Blue patients; they are provided for non-commercial use under the
 same terms as those datasets (CC BY-NC 4.0).
+
+The pretrained weights `model.pth` (v1.0 release) were trained on that virtual cohort and are released under
+CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/): non-commercial use only, crediting this repository and
+the PSMA-PET-CT-Lesions dataset. The backbone was initialised with the MONAI self-supervised Swin UNETR weights.
