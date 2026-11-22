@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software or the pretrained weights, please cite it as below."
+type: software
+title: "Predictive dosimetry for [177Lu]Lu-PSMA therapy: virtual cohort, Monte Carlo dose and pre-therapy prediction updated with a single SPECT"
+abstract: >-
+  A virtual cohort built from public PSMA PET/CT studies, a physiologically based pharmacokinetic (PBPK) model,
+  GATE Monte Carlo dose calculation and a SwinUNETR network that predicts voxel kinetic parameters with uncertainty
+  from PET/CT before therapy. The prediction is personalised with a single post-therapy SPECT (Bayesian update on
+  volumes of interest, differentiable PBPK update and test-time optimisation), validated on a frozen test split and
+  on real 177Lu-DOTATATE patient data.
+authors:
+  - family-names: Caggia
+    given-names: Samuele
+    affiliation: "Department of Physics and Astronomy, University of Catania"
+repository-code: "https://github.com/samkiwi18/lu177-psma-predictive-dosimetry"
+url: "https://github.com/samkiwi18/lu177-psma-predictive-dosimetry"
+license: MIT
+version: "1.0"
+date-released: "2026-11-22"
+keywords:
+  - lutetium-177
+  - PSMA
+  - radiopharmaceutical therapy
+  - internal dosimetry
+  - Monte Carlo
+  - GATE
+  - PBPK
+  - deep learning
+  - SwinUNETR
+  - SPECT
+  - single time point
